@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+  
+}
+
+body{
+    height: 100vh;
+    background: url(img/dark_bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    box-shadow: 0px 8px 37px;
+}
+
+.icon {
+
+    margin-top: 10px;
+}
+
+header nav ul li {
+
+
+    position: relative;
+    float: left;
+}
+
+header nav ul li a{
+    padding: 30px;
+    display: block;
+    text-decoration-color: white;
+    font-size: 30px;
+    position: relative;
+    color: black;
+}
+
+header nav ul li a:hover{
+    background: black;
+    color:white;
+}
+
+
+.card {
+    position: absolute;
+    left: 21%;
+    top: 32%;
+}
+
+
+
+.p1{
+    position: absolute;
+    top: 54%;
+    text-align: left;
+    color: white;
+   
+
+}
+
+.article {
+    position: absolute;
+    top: 45%;
+    color: white;
+    left: 45%;
+}
+.img {
+    position: absolute;
+    left: 43.8%;
+    top: 31.5%;
+}
+
+
+
+.p2{
+    position: absolute;
+    top: 69%;
+    text-align: left;
+    color: white;
+    text-align: justify; 
+    text-align-last: center
+   
+
+}
+
+.p1plcbr {
+
+    position: absolute;
+    top: 50%;
+    text-align: left;
+    color: white;
+   
+
+    
+}
+
+.article {
+    position: absolute;
+    top: 25%;
+    color: white;
+    left: 43.8%;
+}
+
+.p2plcbr {
+    position: absolute;
+    top: 80%;
+    text-align: left;
+    color: white;
+
+
+}
+
+.video {
+    position: absolute;
+    left: 42.5%;
+    top: 48.5%;
+    width: 225px;
+    height: 155px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
